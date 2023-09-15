@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Testing</title>
+</head>
+<body>
+ 
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Learn Dispatch AI Chatbot"
+      chat-icon  = "https://firebasestorage.googleapis.com/v0/b/foodapp-lqii.appspot.com/o/socialintents-logo-primary-removebg-preview.png?alt=media&token=2c72c670-0678-411c-9562-770dc2ed9c42"
+      agent-id="132abbf9-b9b5-4503-af52-c36c9c1b59cb"
+      language-code="en"
+    ></df-messenger>
+    
+
+<style>
+    df-messenger {
+         --df-messenger-bot-message:#3E9CEA;
+         --df-messenger-button-titlebar-color: #ffffff;
+         --df-messenger-button-titlebar-font-color: #080808;
+         --df-messenger-chat-background-color: #ffffff;
+         --df-messenger-font-color: rgb(255, 255, 255);
+         --df-messenger-send-icon: #ff9d09;
+         --df-messenger-user-message: #83b4db;
+         --df-messenger-input-box-color: #e6efff;
+         --df-messenger-user-message-color: #3E9CEA;
+   
+       }
+   </style>
+</body>
+</html>
